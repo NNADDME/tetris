@@ -1,0 +1,12 @@
+[tool.ruff]
+# 行宽：和 ruff 默认对齐，超一点也不用把注释硬换行
+line-length = 100
+target-version = "py313"
+
+# 这些目录不该被扫描（.piptmp 是 pip 的临时目录，里面有些子目录连读取权限都没有，
+# 不排除的话 `ruff format .` 会在扫描阶段直接崩掉）
+exclude = [".venv", ".idea", "assets", ".piptmp", "__pycache__"]
+
+[tool.ruff.lint]
+# 默认的 E4/E7/E9/F + import 排序（I）+ 现代类型注解（UP）
+select = ["E4", "E7", "E9", "F", "I", "UP"]

@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# 虚拟环境（不要上传，别人 clone 后自己建）
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# 工具缓存
+.ruff_cache/
+
+# 系统文件
+Thumbs.db
+.DS_Store
+
+# 本地临时文件
+*.log

@@ -1,0 +1,11 @@
+# pygame-ce >= 2.5.8
+#
+# 为什么用 pygame-ce 而不是 pygame？
+#   你的环境是 Python 3.14，官方 pygame 2.6.1 没有 cp314 的预编译轮子，
+#   pip 会去下源码包编译，需要本机装好 SDL2 + 编译器，通常直接失败。
+#   pygame-ce（Community Edition）是 pygame 的活跃分支，API 完全兼容，
+#   仍然 `import pygame`，且有 cp314 的 win_amd64 轮子，装上就能跑。
+#
+# 安装：
+#   .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+pygame-ce>=2.5.8
