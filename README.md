@@ -3,7 +3,7 @@
 一个用 Python + [pygame-ce](https://pyga.me/) 写的俄罗斯方块，像素风中文界面。
 代码按「配置 / 方块 / 场地 / 规则 / 渲染 / 入口」拆成 6 个模块，逻辑层不依赖窗口，可以脱离显示器单独测试。
 
-![游戏截图](docs/screenshot.png)
+![img.png](img.png)
 
 ## 特性
 
