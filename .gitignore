@@ -21,3 +21,6 @@ Thumbs.db
 
 # 本地临时文件
 *.log
+
+# 本机 TLS 证书包（Steam++ 中间人用）
+.ca-bundle.pem
